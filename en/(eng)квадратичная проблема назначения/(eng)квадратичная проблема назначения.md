@@ -4,15 +4,15 @@
 
 # 1. Introduction
 
-2, 67, 137]. $\mathcal { N } = \{ 1 , 2 , \dots , n \}$ tane $n \times n$ assigning $\begin{array} { r } { F = \left( f _ { i j } \right) } \end{array}$ o loca $D = \left( d _ { k l } \right)$ d facility j to location l is fijdkl. The objective is to nd an assig
+2, 67, 137]. $\mathcal { N } = \{ 1 , 2 , \dots , n \}$ tane $n \times n$ assigning $\begin{array} { r } { F = \left( f _ { i j } \right) } \end{array}$ o loca $D = \left( d _ { k l } \right)$ d facility j to location l is fijdkl. The objective is to nd an assig
 
 $$
 \operatorname* { m i n } _ { p \in \Pi _ { N } } \sum _ { i = 1 } ^ { n } \sum _ { j = 1 } ^ { n } f _ { i j } d _ { p ( i ) p ( j ) } + \sum _ { i = 1 } ^ { n } c _ { i p ( i ) } ,
 $$
 
-In a $\Pi _ { \mathcal { N } }$ tion to its application in facility l $\mathcal { N }$ ation problems, the QAP has been found useful in such applications as scheduling [8 $\begin{array} { r } { F = \left( f _ { i j } \right) } \end{array}$ kboard wiring problem $f _ { i j }$ electronics [240], parallel and distrib $_ i$ ed compu $j$ g [24 $D = \left( d _ { k l } \right)$ tistical data analysis [118]. O $d _ { k l }$ r applications may be found in [77, 13 $k$ , 159]. $l$ The term "quadratic" comes from the reformulation of $_ i$ he problem $k$ s an optimiz $j$ tion problem $l$ wit $f _ { i j } d _ { k l }$ uadratic objective function. There is a one-toone correspondence between N and the $p \in \Pi _ { \mathcal { N } } .$ - n permutation matrices the assignment is minimized. Throughout this paper we often refer to the QAP orion.uwaterloo.ca in the director ub henr
+In a $\Pi _ { \mathcal { N } }$ tion to its application in facility l $\mathcal { N }$ ation problems, the QAP has been found useful in such applications as scheduling [8 $\begin{array} { r } { F = \left( f _ { i j } \right) } \end{array}$ kboard wiring problem $f _ { i j }$ electronics [240], parallel and distrib $_ i$ ed compu $j$ g [24 $D = \left( d _ { k l } \right)$ tistical data analysis [118]. O $d _ { k l }$ r applications may be found in [77, 13 $k$ , 159]. $l$ The term "quadratic" comes from the reformulation of $_ i$ he problem $k$ s an optimiz $j$ tion problem $l$ wit $f _ { i j } d _ { k l }$ uadratic objective function. There is a one-toone correspondence between N and the $p \in \Pi _ { \mathcal { N } } .$ - n permutation matrices the assignment is minimized. Throughout this paper we often refer to the QAP orion.uwaterloo.ca in the director ub henr
 
-1991 Mathematics Subject Classication. Primary 90B80, 90C20, 90C35, 90C27; Secondary found useful in such applications as scheduling [88], the backboard wiring probartitionin surve exact al orithms heuristics al orithms test roblems biblio ra h . data analysis [118]. Other applications may be found in [77, 138, 159].
+1991 Mathematics Subject Classication. Primary 90B80, 90C20, 90C35, 90C27; Secondary found useful in such applications as scheduling [88], the backboard wiring probartitionin surve exact al orithms heuristics al orithms test roblems biblio ra h . data analysis [118]. Other applications may be found in [77, 138, 159].
 
 c 0000 American Mathematical Society0000-0000/00 \$1.00 + \$.25 per page optimization problem with a quadratic objective function. There is a one-toone correspondence between $\Pi _ { \mathcal { N } }$ and the set of $n \times n$ permutation matrices $\boldsymbol { X } = \left( \boldsymbol { x } _ { i j } \right) _ { n \times n }$ x 2 f0; 1g; i = 1; : : : ; n; j = 1; : : : ; n;
 
@@ -56,7 +56,7 @@ $$
 \begin{array} { r } { \operatorname* { m i n } _ { X \in \Pi } f ( X ) = \mathfrak { t } r a c e \left( A X B + C \right) X ^ { t } , } \end{array}
 $$
 
-where .t denotes transpose, $\Pi$ is the set of permutation matrices, and trace hM; Ni = trace M N; $A$ and $B$ to be real symmetric $n \times n$ matrices and $C \in \mathfrak { R } ^ { n \times n }$ . This formulation was introduced in where  stands for complex conjugate. 2.1.3. Kron $\pmb { n }$ ker Product. The trace formulation
+where .t denotes transpose, $\Pi$ is the set of permutation matrices, and trace hM; Ni = trace M N; $A$ and $B$ to be real symmetric $n \times n$ matrices and $C \in \mathfrak { R } ^ { n \times n }$ . This formulation was introduced in where  stands for complex conjugate. 2.1.3. Kron $\pmb { n }$ ker Product. The trace formulation
 
 compact form of representing the quadratic form with the matrix X as the variable. The Hessian of this uadratic form is the tensor roduct or Kronecker product $M N = \mathrm { t } r a c e N M = \mathrm { t } r a c e N ^ { t } M ^ { t }$ . Moreover, the trace provides a valid inner product on the space of real (or complex) $m \times n$ matrices
 
@@ -87,7 +87,7 @@ $$
 \begin{array} { r l r } { \Pi } & { = } & { \mathcal { O } \cap \mathcal { E } \cap \mathcal { N } , } \\ & { = } & { \mathcal { S } \cap \mathcal { E } \cap \mathcal { N } , } \end{array}
 $$
 
-function $\mathcal { O } \ = \ \{ X \ : \ X ^ { t } X \ = \ I \}$ ptimal solution of the original prob ${ \mathcal { S } } \ = \ \{ X \ :$ pertu $X ^ { t } X ~ = ~ n \}$ chang $\mathcal { E } = \{ X : X u = X ^ { t } u = u \}$ and so are important in improving bounding techniques. Two standard p $\mathcal { N } = \{ X : X \ge 0 \}$ nt row and column perturbations and diago $\mathcal { D } = \mathcal { E } \cap \mathcal { N }$ tions, are known to have this property. Specically, suppose that e; f; r; s 2 <n and dene the permutation matrices is the set of doubly stochastic matrices, conv $\Pi = \mathcal { D }$ Thus the set of doubly stochastic matrices corresponds to the bipartite perfect B(f; s) = B + fut + uft + diag (s);
+function $\mathcal { O } \ = \ \{ X \ : \ X ^ { t } X \ = \ I \}$ ptimal solution of the original prob ${ \mathcal { S } } \ = \ \{ X \ :$ pertu $X ^ { t } X ~ = ~ n \}$ chang $\mathcal { E } = \{ X : X u = X ^ { t } u = u \}$ and so are important in improving bounding techniques. Two standard p $\mathcal { N } = \{ X : X \ge 0 \}$ nt row and column perturbations and diago $\mathcal { D } = \mathcal { E } \cap \mathcal { N }$ tions, are known to have this property. Specically, suppose that e; f; r; s 2 <n and dene the permutation matrices is the set of doubly stochastic matrices, conv $\Pi = \mathcal { D }$ Thus the set of doubly stochastic matrices corresponds to the bipartite perfect B(f; s) = B + fut + uft + diag (s);
 
 The properties of the feasible set allow for perturbations of the objective function without changing the optimal solution of the original problem. These perturbations do change relaxations for the problem and so are important in where diag changes a vector to a diagonal matrix and, conversely, it changes a column perturbations and diagonal perturbations, are known to have this proptrace AXB + C Xt = trac $e , f , r , s \in \Re ^ { n }$ f; s + C e;
 
@@ -181,7 +181,7 @@ $$
 \begin{array} { r c l } { d k \big ( X ; h \big ) } & { = } & { X B h ^ { t } + h B X ^ { t } ; } \\ { d g \big ( X ; h \big ) } & { = } & { X h ^ { t } + h ^ { t } X ; } \\ { d f \big ( X ; h \big ) } & { = } & { \mathsf { t r a c e \ } A \big ( d k \big ( X ; h \big ) \big ) = \mathsf { t r a c e \ } A \big ( X B h ^ { t } + h B X ^ { t } \big ) . } \end{array}
 $$
 
-a ran ian usin the above dierentials. If we set the derivative to 0 we et the $C = 0$ on that AXB XS = 0 or XtAXB =  S: We conclude from S = St that XtAX and B commute and
+a ran ian usin the above dierentials. If we set the derivative to 0 we et the $C = 0$ on that AXB XS = 0 or XtAXB =  S: We conclude from S = St that XtAX and B commute and
 
 $$
 \operatorname* { m i n } f ( X ) { \mathrm { ~ s u b j e c t ~ t o ~ } } g ( X ) = 0 .
@@ -195,7 +195,7 @@ $$
 
 where the Lagrange multiplier $S$ is a symmetric matrix. We can differentiate the Lagrangian using the above differentials. If we set the derivative to 0, we get the condition that $A X B + X S = 0$ or $X ^ { t } A X B = - S$ . We conclude from $S = S ^ { t }$ , that $X ^ { t } A X$ and $B$ commute and so are mutually diagonalizable. This yields the minimum scalar product of the eigenvalues used in the bounds in Theorem 5.1. An improved bound can be obtained by projecting the feasible set onto min max trace -(AXB + C)Xt + t (Xe   e) + t (Xt(2.3) e   e); permutation matrices, see 2.3.4. (More details can be found in [210, 102, 129].)
 
-hile the dual is the max-min problem max min trace -(AXB + C)Xt + t (Xe   e) + t (Xt(2.4) e   e $\mathcal { D }$ while perturbing the objective function to make it convex on the span of $\mathcal { D }$ , then the The above relaxation provides lower bounds for QAP. Thus, for each perturbation dened in Section 2.2, with the above convexity assumption on the span of D, the dual problem provides lower bounds for QAP because we can eectiv
+hile the dual is the max-min problem max min trace -(AXB + C)Xt + t (Xe   e) + t (Xt(2.4) e   e $\mathcal { D }$ while perturbing the objective function to make it convex on the span of $\mathcal { D }$ , then the The above relaxation provides lower bounds for QAP. Thus, for each perturbation dened in Section 2.2, with the above convexity assumption on the span of D, the dual problem provides lower bounds for QAP because we can eectiv
 
 $$
 \operatorname* { m i n } _ { X \in \mathcal { N } } \operatorname* { m a x } _ { \lambda _ { 1 } , \lambda _ { 2 } \in \mathfrak { R } ^ { n } } { \mathfrak { t } } r a c e \ \big [ ( A X B + C ) X ^ { t } \big ] + \lambda _ { 1 } ^ { t } \big ( X e - e \big ) + \lambda _ { 2 } ^ { t } \big ( X ^ { t } e - e \big ) ,
@@ -229,7 +229,7 @@ $$
 \begin{array} { r l r } { \operatorname* { m i n } } & { \textstyle \sum \{ c _ { i j k } x _ { i j k } : i \in I , j \in J , k \in K \} , } & \\ { \mathrm { s . } t . } & { \textstyle \sum \{ x _ { i j k } : j \in J , k \in K \} = 1 , \ \forall i \in I , } & \\ & { \textstyle \sum \{ x _ { i j k } : i \in I , k \in K \} = 1 , \ \forall j \in J , } & \\ & { \textstyle \sum \{ x _ { i j k } : i \in I , j \in J \} = 1 , \ \forall k \in K , } & \\ & { \textstyle \qquad x _ { i j k } \in \{ 0 , 1 \} , \ \forall i , j , k , } & \end{array}
 $$
 
-by Fro $I , ~ J$ [83] $K$ nd discussed by Burkard and $| I | = | J | = | K | = n$ see Burkard and Rudolf [42]. More recently, Balas and Saltzman [11] developed a bran $\pmb { n }$ an $n ^ { 3 }$ b
+by Fro $I , ~ J$ [83] $K$ nd discussed by Burkard and $| I | = | J | = | K | = n$ see Burkard and Rudolf [42]. More recently, Balas and Saltzman [11] developed a bran $\pmb { n }$ an $n ^ { 3 }$ b
 
 shion with subgradient optimization. assignment problem is NP-hard [131]. Most ot the proposed algorithms for this problem are implicit enumeration methods. Some of the proposed algorithms include those of Vlach [247], Pierskalla [196, 197] and Leue [145]; a primaldual algorithm described by Hansen and Kaufman [106]; a branch and bound algorithm using a Lagrangian dual and subgradient optimization implemented by Fröhlich [83] and discussed by Burkard and Fröhlich [38]. Also see Burkard and Rudolf [42]. More recently, Balas and Saltzman [11] developed a branch and bound algorithm that also uses facet-defining inequalities in a Lagrangian fashion with subgradient optimization.
 
@@ -247,11 +247,11 @@ $$
 
 Other papers on the three-index assignment p $\pmb { n }$ o
 
-Balas and Saltzman [10] started to study the facial structure of $P _ { I }$ . They gave an $O ( n ^ { 4 } )$ procedure to detect whether there is a clique facet of $P _ { I }$ , violated by a given noninteger point $\pmb { x }$ . In [1], Balas and Qi gave an $O ( n ^ { 3 } )$ procedure to do signment problem (QSA) unies some inter $n ^ { 3 }$ ing $O ( n ^ { 3 } )$ natorial optimization for a facet class of $P _ { I }$ is linear-time and its complexity is best possible. Balas and Qi [9], Gwan and Qi [99] also gave linear-time separation algorithms for other two facet classes of $P _ { I }$ k=1 i=1 j=1 cijxikxjk (3.2)
+Balas and Saltzman [10] started to study the facial structure of $P _ { I }$ . They gave an $O ( n ^ { 4 } )$ procedure to detect whether there is a clique facet of $P _ { I }$ , violated by a given noninteger point $\pmb { x }$ . In [1], Balas and Qi gave an $O ( n ^ { 3 } )$ procedure to do signment problem (QSA) unies some inter $n ^ { 3 }$ ing $O ( n ^ { 3 } )$ natorial optimization for a facet class of $P _ { I }$ is linear-time and its complexity is best possible. Balas and Qi [9], Gwan and Qi [99] also gave linear-time separation algorithms for other two facet classes of $P _ { I }$ k=1 i=1 j=1 cijxikxjk (3.2)
 
 xjk 2 f0; 1g; 8j; k; and [219].
 
-ion problem, and the m-coloring problem on graphs [234], [235]. Given n objects and an n - n dissimilarity matrix C = (cij), the \clustering problem" is to nd a partition of the object
+ion problem, and the m-coloring problem on graphs [234], [235]. Given n objects and an n - n dissimilarity matrix C = (cij), the \clustering problem" is to nd a partition of the object
 
 $$
 \begin{array} { r l } { \operatorname* { m i n } } & { \sum _ { k = 1 } ^ { m } \sum _ { i = 1 } ^ { n } \sum _ { j = 1 } ^ { n } c _ { i j } x _ { i k } x _ { j k } } \\ { \mathrm { s . } t . } & { \sum _ { k = 1 } ^ { m } x _ { j k } = 1 , \ j = 1 , . . . , n } \\ & { \quad { x _ { j k } } \in \{ 0 , 1 \} , \quad \forall j , k , } \end{array}
@@ -305,7 +305,7 @@ $$
 
 It is well known that the traveling salesma $\vert V \vert ~ \le ~ \vert V ^ { \prime } \vert ~ . )$ the matching prob$G$ m can $G ^ { \prime }$ e formulated as a special quadratic assign $K _ { n }$ nt prob $M ( G , G ^ { \prime } ) = \{ G ^ { \prime } \}$ haps $\Pi ( G , G ^ { \prime } )$ own are the connections of t $\pmb { n }$ quadratic assignment problem to the bandwidth problem in grap
 
-ndwidth problem (we refer to [201] for a survey on the topic): Let G be an undirected (and unweighted) graph on n nodes. A permutation  of n elements is called a labeling of the nodes of G. The bandwidth of a labeling  is dened as problem.
+ndwidth problem (we refer to [201] for a survey on the topic): Let G be an undirected (and unweighted) graph on n nodes. A permutation  of n elements is called a labeling of the nodes of G. The bandwidth of a labeling  is dened as problem.
 
 It is well known that the traveling salesman problem and the matching probThe bandwidth  of G is the minimum of this number over all labelings. In terms of matrices, the bandwidth problem asks for a simultaneous permutation of the rows and columns of the adjacency matrix of G such that all nonzero entries are as close as possible to the main diagonal.
 
@@ -315,7 +315,7 @@ $$
 \operatorname* { m a x } _ { i j \in E } | \pi ( i ) - \pi ( j ) | .
 $$
 
-Pn;k by B, then $\sigma$ we $G$ is the minimum of this number over all labelings. In terms The bandwidth of G is at most k if and only if max2 Pij aijb(i)(j) = 2jEj: Therefore if some upper bound on this qu $G$ ratic assignment problem has a value less than 2jEj for a xed value of
+Pn;k by B, then $\sigma$ we $G$ is the minimum of this number over all labelings. In terms The bandwidth of G is at most k if and only if max2 Pij aijb(i)(j) = 2jEj: Therefore if some upper bound on this qu $G$ ratic assignment problem has a value less than 2jEj for a xed value of
 
 ndwidth is larger than k. This idea was u $G$ in [110] to $k$ derive lower bounds $P _ { n , k }$ he bandwidth $\pmb { n }$ f graphs. In particu $i j$ the follow $| i - j | \le k$ lower bound $G$ the bandwidth is proved. $P _ { n , k }$ . Conversely, if the bandwidth of $G$ is larger than $k$ , then there cannot exist a subgraph of $P _ { n , k }$ which is isomorphic to $G$ (G)  n2(L)= $G$ (L) $A$ and the adjacency matrix of $P _ { n , k }$ by $B$ , then we conclude:
 
@@ -337,7 +337,7 @@ $$
 
 In [166, 209] it is pointed out that the general graph partition problem can be modeled as a quadratic assignment problem. (See Section 4.3 for details.) It turns out however, that exploiting the special structure of the partition problem leads to more powerful results than treating this problem as a quadratic assignment problem.
 
-# AP is NP-complete, which implies that nding a poly
+# AP is NP-complete, which implies that nding a poly
 
 From the computational point of view the QAP is one of the most difficult problems to solve. In this section several aspects regarding the complexity of the QAP are discussed. Although computational complexity characterizes worst case instances, it also plays an important role in developing new algorithms for p ( ), g p p g p ( ), q p and revealing surprising connections among problems and their solutions.
 
@@ -350,9 +350,9 @@ ow matrix corresponds to the adjacency matrix of a clique of size k. The maximum
 The graph partitioning problem (GP): The distance matrix corresponds to the adjacency matrix of the GP, the flow matrix corresponds to the adjacency matrix of two disjoint complete graphs of size $n / 2$ (assuming $\pmb { n }$ is even).   
 The maximum clique problem (MCP): To identify the existence of a clique of size $k$ , one constructs a distance matrix corresponding to the adjacency matrix of the graph for the MCP, a flow matrix corresponds to the adjacency matrix of a clique of size $k$ . The maximum clique can be found by solving a set of $\pmb { n }$ QAPs, one for each $k , 1 \leq k \leq n$
 
-ighted adjacency matrix of a tree, while the other one represents the distance matrix of a grid graph G = (V; E), where the distances between nodes i and j is dened as follows $A$ and $B$ are weighted adjacency matrices of a tree, the problem can be solved in a dynamic programming fashion, in polynomial time. But if only 1 of the 2 matrices is a weighted adjacency matrix of a tree, the problem remains to be $N P$ -complete since the TSP Other polynomial-time solv
+ighted adjacency matrix of a tree, while the other one represents the distance matrix of a grid graph G = (V; E), where the distances between nodes i and j is dened as follows $A$ and $B$ are weighted adjacency matrices of a tree, the problem can be solved in a dynamic programming fashion, in polynomial time. But if only 1 of the 2 matrices is a weighted adjacency matrix of a tree, the problem remains to be $N P$ -complete since the TSP Other polynomial-time solv
 
-atrix is the weighted adjacency matrix $O ( n \log n )$ e star (see Christodes and Gerrard [53]). When both distance and 
+atrix is the weighted adjacency matrix $O ( n \log n )$ e star (see Christodes and Gerrard [53]). When both distance and 
 ow matrices are weighted adjacency matrices of series-parallel graphs containing no bipartite graph K2;2, then again the corresponding QA $G = ( V , E )$ in polynomial time [208]. $_ i$ and $j$ is defined as follows
 
 $$
@@ -379,7 +379,7 @@ Output: A local optimal permutation $p$ for the QAP.
 (iii) $i = i + 1$ . For each pair of facilities not already selected, evaluate the step gain by exchanging their locations. Then, select the pair with maximum gain $g _ { i } = C ( p _ { i - 1 } ) - C ( p _ { i } )$ . If all facilities have been selected then set   
 aph Gence $i = i - 1$ ( )ssuming jVj = 2n) win of the set V alwa $\begin{array} { r } { G ( i ) = \sum _ { k = 1 } ^ { k = i } g _ { k } } \end{array}$ w(eion $G ( i ) > 0$ For conve-sets A B h jAj = jB $k$ = jVj=2 i $G ( k )$ rest of the pap $0 \leq k \leq i$   
 nd a $k > 0$ on (A; B) $p _ { 0 } = p _ { k }$ set V with t   
-den ed to be the sum of the weights of all edges betw $p = p _ { 0 }$ and B. As t $p$ e mo $C ( \boldsymbol { p } )$ c
+den ed to be the sum of the weights of all edges betw $p = p _ { 0 }$ and B. As t $p$ e mo $C ( \boldsymbol { p } )$ c
 
 nse. Each partition (Ak; Bk); 1  k  l, in the sequence is obtained from the previo $G ( V , E )$ (Ak 1; Bk 1 $| V | = 2 n$ ping one vertex in $w ( e )$ $e \in E$ ne vertex in Bk 1 and has cost lower than $V$ e current partition. A local search is per $( A , B )$ in th $| A | = | B | = | V | / 2$ f this sequence, replacing the current partition by the partition with the l $( A , B )$ ost in the s $V$ uence (the algorithm stop $C ( A , B )$ equence is empty for the current partition). Similar to the description $A$ Algor $B$ hm 1, we use the cumulative gain G(k) for a partition pk. heuristic starts with a random partition of the set $V$ . A sequence of partitions, ${ ( A _ { 1 } , B _ { 1 } ) , \ldots , ( A _ { l } , B _ { l } ) }$ , is constructed for a current partition $\left( A _ { 0 } , B _ { 0 } \right)$ in a greedy sense. Each partition $\left( A _ { k } , B _ { k } \right)$ , $1 \leq k \leq l$ , in the sequence is obtained from the previous one $\left( A _ { k - 1 } , B _ { k - 1 } \right)$ by swapping one vertex in $A _ { k - 1 }$ with one vertex in $B _ { k - 1 }$ and has cost lower than the current partition. A local search is performed in the set of partitions of this sequence, replacing the current partition by the partition with the lowest cost in the sequence (the algorithm stops if the sequence is empty for the current partition). Similar to the description of Algorithm 1, we use the cumulative gain $G ( k )$ for a partition $p _ { k }$
 
@@ -396,7 +396,7 @@ In order to characterize the complexity of such local search algorithms, a new c
 
 In order to characterize the complexity of such local search algorithms, a new complexity class, the Polynomial-time Local Search class, was introduced and
 
-More formally, a local sear $P$ problem P in PLS is dened as $x \in I$ s: Given an input x, nd a locally optimal solution s 2 F( $F ( x )$ or the problem P, the following three $s \in F ( x )$ al time algorithm $\pmb { s }$ should also e $x \in I$ , we can produce a feasible solution $s \in F ( x )$ in polynomial time. Next, given $x \in I$ and $s \in F ( x )$ we can compute the cost $C ( \boldsymbol { s } , \boldsymbol { x } )$ of s in polynomial time. In addition, every solution $s \in F ( x )$ has a set of neighboring solutions $N ( s , x )$ . Finally, given $x \in I$ and $s \in F ( x )$ , we can test in polynomial time whether $\pmb { s }$ is locally optimal, and if not, produce a solution belonging to $N ( s , x )$ with a better cost value (A solution $\pmb { s }$ is locally optimal if it does not have a strictly better neighbor).
+More formally, a local sear $P$ problem P in PLS is dened as $x \in I$ s: Given an input x, nd a locally optimal solution s 2 F( $F ( x )$ or the problem P, the following three $s \in F ( x )$ al time algorithm $\pmb { s }$ should also e $x \in I$ , we can produce a feasible solution $s \in F ( x )$ in polynomial time. Next, given $x \in I$ and $s \in F ( x )$ we can compute the cost $C ( \boldsymbol { s } , \boldsymbol { x } )$ of s in polynomial time. In addition, every solution $s \in F ( x )$ has a set of neighboring solutions $N ( s , x )$ . Finally, given $x \in I$ and $s \in F ( x )$ , we can test in polynomial time whether $\pmb { s }$ is locally optimal, and if not, produce a solution belonging to $N ( s , x )$ with a better cost value (A solution $\pmb { s }$ is locally optimal if it does not have a strictly better neighbor).
 
 A problem P 2 PLS is PLS-reducible $P$ another problem Q 2 PLS, if there are polyn $\pmb { x }$ mial time computable functions f $s \in F ( x )$ ch that f maps an i $P$ ance x of P to an instance f(x) of Q and for any locally optimal s
 
@@ -406,9 +406,9 @@ A problem P 2 PLS is PLS-reducible $P$ another problem Q 2 PLS, if there are pol
 
 obtained fr $P \in \mathrm { { P L S } }$ ) by swapping one element of A with $Q \in \mathrm { { P L S } }$ ent of B. (A ; B ) is a greedy swap if C(A; B)   C( $f$ ; B ) $g$ s maximiz $f$ over all swaps of $\pmb { x }$ A; $P$ . If in fact (A ; $f ( x )$ s t $Q$ lexicographically smallest over all gre $\pmb { s }$ dy s $f ( x )$ , $g { \big ( } s , x { \big ) }$ that (A ; B ) is the lexicographic greed $\pmb { x }$ wap of (A; B). $P$ Let (Ai; Bi) be a sequence of partitions, each of which is a swap of the one pr $P$ e
 
-m (A0; B0). We call it monotonic, if the dierences of Ai   A0 and Bi   B0 are monotonically increasing (that is, no vertex is switched back to its original set (A0; B0)). Finally, we say that a partition (A ; B ) is a neig $( A , B )$ f (A; B) if it occ $( A ^ { ' } , B ^ { ' } )$ e unique $A$ axim $A ^ { ' }$ monotonic sequence of lexicographicall $( A ^ { ' } , B ^ { ' } )$ swaps starting w $( A , B )$ B). Note that such a sequenc $A$ will consist of jVj=2 $B$ 1 $( A ^ { ' } , B ^ { ' } )$ ns, with the last on $C ( A , B ) - C ( A ^ { ' } , B ^ { ' } )$ Thus, each partition has jVj=2 $( A , B )$ ors. The $( A ^ { ' } , B ^ { ' } )$ m performs local search over this neighborhood structure, replaci $( A ^ { ' } , B ^ { ' } )$ urrent partition by the partition w $( A , B )$ lowe $\left( A _ { i } , B _ { i } \right)$ n the neig hb o rho o d. In $\left( A _ { 0 } , B _ { 0 } \right)$ aining part of this section, we show that the $A _ { i } - A _ { 0 }$ ith t $B _ { i } - B _ { 0 }$ borhood structure dened in Algorithm 1 is PLS-complete by reduction from set $\left( A _ { 0 } , B _ { 0 } \right) )$ . Finally, we say that a partition $( A ^ { ' } , B ^ { ' } )$ is a neighbor of $( A , B )$ if it occurs in the unique maximal monotonic sequence of lexicographically greedy swaps starting with $( A , B )$ . Note that such a sequence will consist of $| V | / 2 + 1$ partitions, with the last one equal to $( B , A )$ . Thus, each partition has $| V | / 2$ neighbors. The algorithm performs local search over this neighborhood structure, replacing the current partition by the partition with the lowest cost in the neighborhood.
+m (A0; B0). We call it monotonic, if the dierences of Ai   A0 and Bi   B0 are monotonically increasing (that is, no vertex is switched back to its original set (A0; B0)). Finally, we say that a partition (A ; B ) is a neig $( A , B )$ f (A; B) if it occ $( A ^ { ' } , B ^ { ' } )$ e unique $A$ axim $A ^ { ' }$ monotonic sequence of lexicographicall $( A ^ { ' } , B ^ { ' } )$ swaps starting w $( A , B )$ B). Note that such a sequenc $A$ will consist of jVj=2 $B$ 1 $( A ^ { ' } , B ^ { ' } )$ ns, with the last on $C ( A , B ) - C ( A ^ { ' } , B ^ { ' } )$ Thus, each partition has jVj=2 $( A , B )$ ors. The $( A ^ { ' } , B ^ { ' } )$ m performs local search over this neighborhood structure, replaci $( A ^ { ' } , B ^ { ' } )$ urrent partition by the partition w $( A , B )$ lowe $\left( A _ { i } , B _ { i } \right)$ n the neig hb o rho o d. In $\left( A _ { 0 } , B _ { 0 } \right)$ aining part of this section, we show that the $A _ { i } - A _ { 0 }$ ith t $B _ { i } - B _ { 0 }$ borhood structure dened in Algorithm 1 is PLS-complete by reduction from set $\left( A _ { 0 } , B _ { 0 } \right) )$ . Finally, we say that a partition $( A ^ { ' } , B ^ { ' } )$ is a neighbor of $( A , B )$ if it occurs in the unique maximal monotonic sequence of lexicographically greedy swaps starting with $( A , B )$ . Note that such a sequence will consist of $| V | / 2 + 1$ partitions, with the last one equal to $( B , A )$ . Thus, each partition has $| V | / 2$ neighbors. The algorithm performs local search over this neighborhood structure, replacing the current partition by the partition with the lowest cost in the neighborhood.
 
-In the remaining part of this section, we show that the QAP with the neighborhood structure defined in Algorithm 1 is PLS-complete by reduction from this neighborhood structure, nding a local optimum for the QAP is in PLS. To prove PLS-completeness, we show that the GP is PLS-reducible to the QAP. Given an instance of the GP of size 2n, we can create an instance of the QAP with the same size in polynomial time. Furthermore, for each local optimal permutation of the QAP, there is a natural local optimal partition for the corresponding GP. More specically, suppose for the GP, the graph G = (V; E) has edge weights w(e) and vertex set V with jV $\lfloor n / 2 \rfloor$ n. We construct, in polynomial time, an instance of the QAP with 2n - 2n matrices F = (fij) and D = (dkl) dened below: $\lfloor n / 2 \rfloor$ neighboring permutations. Hence, with this neighborhood structure, finding a local optimum for the QAP is in PLS.
+In the remaining part of this section, we show that the QAP with the neighborhood structure defined in Algorithm 1 is PLS-complete by reduction from this neighborhood structure, nding a local optimum for the QAP is in PLS. To prove PLS-completeness, we show that the GP is PLS-reducible to the QAP. Given an instance of the GP of size 2n, we can create an instance of the QAP with the same size in polynomial time. Furthermore, for each local optimal permutation of the QAP, there is a natural local optimal partition for the corresponding GP. More specically, suppose for the GP, the graph G = (V; E) has edge weights w(e) and vertex set V with jV $\lfloor n / 2 \rfloor$ n. We construct, in polynomial time, an instance of the QAP with 2n - 2n matrices F = (fij) and D = (dkl) dened below: $\lfloor n / 2 \rfloor$ neighboring permutations. Hence, with this neighborhood structure, finding a local optimum for the QAP is in PLS.
 
 To prove PLS-completeness, we show that the GP is PLS-reducible to the fij ( ; j) ( ; j) ; $2 n$ , we can create an instance of the QAP with the same size in polynomial time. Furthermore, for each local optimal dkl = 0 if k; l 2 A or k; l 2 B; otherwise dlk = 1; responding GP. More specifically, suppose for the GP, the graph $G = ( V , E )$ has edge weights $w ( e )$ and vertex set $V$ with $| V | = 2 n$ . We construct, in polynomial time, an instance of the QAP with $2 n \times 2 n$ matrices $\boldsymbol { F } = \left( f _ { i j } \right)$ and $D = \left( d _ { k l } \right)$ This reduction
 
@@ -420,11 +420,11 @@ $$
 A = \{ 1 , 2 , \ldots , n \} , B = \{ n + 1 , n + 2 , \ldots , 2 n \} .
 $$
 
-and can be recovered in polynomial time. By denition, the local search pr $p _ { k }$ em for the QAP with the ne $\left( A _ { k } , B _ { k } \right)$ od structure de $V$ d in Algorithm 1 is PLScomplete. $\pmb { n }$ in $p _ { k }$ constitutes the set $A _ { k }$ We should also mention that, at pre $n + 1$ th $2 n$ ar $p _ { k }$ o known local crit $B _ { k }$ a in deciding $p _ { k }$ w good $\mathrm { Q A P }$ al optimal solution is, in relation to the $\left( A _ { k } , B _ { k } \right)$ ptimum. From the complexity point of view, it can be shown $p _ { 0 }$ at, i $\left( A _ { 0 } , B _ { 0 } \right)$ xists a polynomial tim $p _ { k }$ algorithm for checking whether a $p _ { 0 }$ ven permutation $\left( A _ { k } , B _ { k } \right)$ lly optimal, then P = NP [177 $\left( A _ { 0 } , B _ { 0 } \right)$ . Hence, for any local optimal permutation of the $\mathrm { Q A P }$ , the corresponding partition is a local optimal partition for the GP and can be recovered in polynomial time. By definition, the local search problem for the QAP with the neighborhood structure defined in Algorithm 1 is PLScomplete.
+and can be recovered in polynomial time. By denition, the local search pr $p _ { k }$ em for the QAP with the ne $\left( A _ { k } , B _ { k } \right)$ od structure de $V$ d in Algorithm 1 is PLScomplete. $\pmb { n }$ in $p _ { k }$ constitutes the set $A _ { k }$ We should also mention that, at pre $n + 1$ th $2 n$ ar $p _ { k }$ o known local crit $B _ { k }$ a in deciding $p _ { k }$ w good $\mathrm { Q A P }$ al optimal solution is, in relation to the $\left( A _ { k } , B _ { k } \right)$ ptimum. From the complexity point of view, it can be shown $p _ { 0 }$ at, i $\left( A _ { 0 } , B _ { 0 } \right)$ xists a polynomial tim $p _ { k }$ algorithm for checking whether a $p _ { 0 }$ ven permutation $\left( A _ { k } , B _ { k } \right)$ lly optimal, then P = NP [177 $\left( A _ { 0 } , B _ { 0 } \right)$ . Hence, for any local optimal permutation of the $\mathrm { Q A P }$ , the corresponding partition is a local optimal partition for the GP and can be recovered in polynomial time. By definition, the local search problem for the QAP with the neighborhood structure defined in Algorithm 1 is PLScomplete.
 
 We should also mention that, at present, there are no known local criteria in deciding how good a local optimal solution is, in relation to the global optimum. From the complexity point of view, it can be shown that, if there exists a polynomial time algorithm for checking whether a given permutation is globally optimal, then $\mathrm { P } = \mathrm { N P }$ [177].
 
-4.4. Asymptotic Behavior. A nice feature of the $\mathrm { Q A P }$ is that the relative xed permutation p 2 , let cip(i)jp(j) be independently distributed. For given  > 0 and 0 < 0   and 0 < (E + 0)=(E   0)  1 + , and Finke discovered this behavior for the QAP in the plane, i.e., the distance matrix $B$ P(   < 1 + )  1   2n!e ; that this behavior holds also for the QAP in general in 1985. The result can be where 0 = 2((0)=(0 + 22))2;
+4.4. Asymptotic Behavior. A nice feature of the $\mathrm { Q A P }$ is that the relative xed permutation p 2 , let cip(i)jp(j) be independently distributed. For given  > 0 and 0 < 0   and 0 < (E + 0)=(E   0)  1 + , and Finke discovered this behavior for the QAP in the plane, i.e., the distance matrix $B$ P(   < 1 + )  1   2n!e ; that this behavior holds also for the QAP in general in 1985. The result can be where 0 = 2((0)=(0 + 22))2;
 
 THEOREM 4.1. For $i , j , k , l \in \{ 1 , \cdots n \}$ , let $c _ { i j k l }$ be identically distributed random variables in $[ 0 , 1 ]$ with expected value $E$ and variance $\sigma ^ { 2 } > 0$ . For every Several other re $p \in \Pi$ rs, i $c _ { i p \left( i \right) j p \left( j \right) }$ Frenk, van Houweninge, and Rinnooy Kan $\epsilon > 0$ and $0 < \epsilon _ { 0 } \le \sigma ^ { 2 }$ 212] $0 < ( E + \epsilon _ { 0 } ) / ( E - \epsilon _ { 0 } ) \le 1 + \epsilon ,$ e
 
@@ -432,27 +432,27 @@ $$
 P ( \frac { F _ { c } ^ { + } } { F _ { c } ^ { - } } < 1 + \epsilon ) \ge 1 - 2 n ! e ^ { - \lambda _ { 0 } n ^ { 2 } } ,
 $$
 
-5.1 $\lambda _ { 0 } = 2 { \left( \left( \epsilon _ { 0 } \sigma \right) \right)} / { \left( \epsilon _ { 0 } + 2 \sigma ^ { 2 } \right) }  ^ { 2 }$ $\begin{array} { r } { \operatorname* { l i m } _ { n \to \infty } n ! e ^ { - \lambda } 0 ^ { n ^ { 2 } } = 0 } \end{array}$ be di $F _ { c } ^ { + }$ nt m $F _ { C } ^ { - }$ ds used to nd an optimal solution of QAP. The methods include d $Q A P$ ic programming, $C$ t
+5.1 $\lambda _ { 0 } = 2 { \left( \left( \epsilon _ { 0 } \sigma \right) \right)} / { \left( \epsilon _ { 0 } + 2 \sigma ^ { 2 } \right) }  ^ { 2 }$ $\begin{array} { r } { \operatorname* { l i m } _ { n \to \infty } n ! e ^ { - \lambda } 0 ^ { n ^ { 2 } } = 0 } \end{array}$ be di $F _ { c } ^ { + }$ nt m $F _ { C } ^ { - }$ ds used to nd an optimal solution of QAP. The methods include d $Q A P$ ic programming, $C$ t
 
-Several other researchers, including Frenk, van Houweninge, and Rinnooy Kan enerall dicult to solve. This is due to the inherent dicult of the AP the convergence holds almost everywhere.
+Several other researchers, including Frenk, van Houweninge, and Rinnooy Kan enerall dicult to solve. This is due to the inherent dicult of the AP the convergence holds almost everywhere.
 
 # 5. Methods of Solution
 
-Cutting plane methods for the QAP were introduced by Bazaraa and Sherali [19]. Although the computational experience was not satisfactory, such methods can be used to nd good suboptimal solutions, s
+Cutting plane methods for the QAP were introduced by Bazaraa and Sherali [19]. Although the computational experience was not satisfactory, such methods can be used to nd good suboptimal solutions, s
 
-4]. In Bazaraa and Sherali [20], cutting plane procedures were investigated for solving the concave quadratic minimization formulation of the QAP. Several heuristics derived from the cutting plane procedures produce good quality solutions in early stage of the search procedure. Christodes and Benavent [52] used a special dynamic programming approach for the special case of the QAP in w
+4]. In Bazaraa and Sherali [20], cutting plane procedures were investigated for solving the concave quadratic minimization formulation of the QAP. Several heuristics derived from the cutting plane procedures produce good quality solutions in early stage of the search procedure. Christodes and Benavent [52] used a special dynamic programming approach for the special case of the QAP in w
 
 atrix of a tree. Problems of sizes up to 30 were solved. [19]. Although the computational experience was not satisfactory, such methods can be used to find good suboptimal solutions, see e.g., Burkard and Bönniger [34]. In Bazaraa and Sherali [20], cutting plane procedures were investigated for solving the concave quadratic minimization formulation of the QAP. Several heuristics derived from the cutting plane procedures produce good quality solutions in early stage of the search procedure.
 
 Christofides and Benavent [52] used a special dynamic programming approach for the special case of the QAP in which the fow matrix is the weighted adjacency matrix of a tree. Problems of sizes up to 30 were solved.
 
-ee. Some of the earliest branch and bound algorithms for solving QAPs are described in [36], [66], [180] and [218]. Pair assignment algorithms were developed by Gavett and Plyter [86], Land [141], and Nugent et al. [171], etc. At each node of the branch-and-bound search tree, a xed pair of facilities is allocated to a pair of locations. The last algorithm, the relative positioning algorithm, was developed by Mirchandani and Obata [160]. In their approach, the levels of the branch-and-bound search tree do not correspond to the assignments of facilities to locations. The partial permutations at each level are determined in terms of distances between facilities, i.e., their relative positions. Numerical experiences indicate that
+ee. Some of the earliest branch and bound algorithms for solving QAPs are described in [36], [66], [180] and [218]. Pair assignment algorithms were developed by Gavett and Plyter [86], Land [141], and Nugent et al. [171], etc. At each node of the branch-and-bound search tree, a xed pair of facilities is allocated to a pair of locations. The last algorithm, the relative positioning algorithm, was developed by Mirchandani and Obata [160]. In their approach, the levels of the branch-and-bound search tree do not correspond to the assignments of facilities to locations. The partial permutations at each level are determined in terms of distances between facilities, i.e., their relative positions. Numerical experiences indicate that
 
-gorithms the single assignment algorithms are the best. The pair assignment algorithms were shown to be not computationally ecient. The authors of the relative positioning algorithm claimed favorable behavior of the algorithm for problems with sparse matrices. and Obata [160]. In their approach, the levels of the branch-and-bound search tree do not correspond to the assignments of facilities to locations. The partial permutations at each level are determined in terms of distances between facilities, i.e., their relative positions.
+gorithms the single assignment algorithms are the best. The pair assignment algorithms were shown to be not computationally ecient. The authors of the relative positioning algorithm claimed favorable behavior of the algorithm for problems with sparse matrices. and Obata [160]. In their approach, the levels of the branch-and-bound search tree do not correspond to the assignments of facilities to locations. The partial permutations at each level are determined in terms of distances between facilities, i.e., their relative positions.
 
 Numerical experiences indicate that among the 3 types of branch-and-bound algorithms the single assignment algorithms are the best. The pair assignment algorithms were shown to be not computationally efficient. The authors of the relative positioning algorithm claimed favorable behavior of the algorithm for problems with sparse matrices.
 
-pensive to compute. In the following, a brief discussion of the 3 categories of lower bounds is given. should be sharp and should be fast to compute. For the QAP, there are roughly 3 categories of lower bounds. The first category includes the classical GilmoreLawler bound (GLB) and related bounds [89, 143]. The second category includes the eigenvalue based bounds [74, 102, 101, 210, 103]. The rest of the hx; yi  = minhx; Pyi; hx; yi+ = maxhx; Pyi; solving a number of linear assignment problems [5, 47, 54, 82]. It is generally where the set  denotes the set of all permutations of N and x; y 2 R . In fact, hx; yi  can be computed as the inner product of x and y , where x is lower bounds is given.
+pensive to compute. In the following, a brief discussion of the 3 categories of lower bounds is given. should be sharp and should be fast to compute. For the QAP, there are roughly 3 categories of lower bounds. The first category includes the classical GilmoreLawler bound (GLB) and related bounds [89, 143]. The second category includes the eigenvalue based bounds [74, 102, 101, 210, 103]. The rest of the hx; yi  = minhx; Pyi; hx; yi+ = maxhx; Pyi; solving a number of linear assignment problems [5, 47, 54, 82]. It is generally where the set  denotes the set of all permutations of N and x; y 2 R . In fact, hx; yi  can be computed as the inner product of x and y , where x is lower bounds is given.
 
 5.2.1. Gilmore-Lawler Bound (GLB) and Related Bounds. The GLB is computed by using the minimal vector product and the maximal vector product, denoted $\left. x , y \right. _ { - }$ and $\left. { \pmb x } , { \pmb y } \right. _ { + }$ , defined below
 
@@ -499,7 +499,7 @@ The strengthened relaxation of the constraint set of permutation matrices to $\m
 
 he bounds are denoted by FY1 and FY2 respectively. Finally, Carraresi and Malucelli [47] proposed $\mathtt { X u }$ w lower bound (CM) for the QAP through an iterative process. In each iteration, at most O(n2) linear assignment problems related with an e $n ^ { 2 } + 1$ t reformulation of the QAP a $\pmb { n }$ solved. Hence the procedure has a time complexity of O(kn5) w $O ( k n ^ { 5 } )$ the nu $k$ ber of iterations used. Christofides and Gerrard [54] proposed a lower bound (CG) by solving $O ( n ^ { 4 } )$ linear assignment problems corresponding to pairs of assignments, resulting in a $O ( n ^ { 7 } )$ procedure. Frieze and Yadegar [82] obtained 2 lower bounds by solving the Lagrangian relaxation of a related linear integer formulation of the QAP. 1 ( ij ) 2 ( ij ) 1 21 2 B into two matrices B1 = (bij ) and B2 = (bij ) such that B = B1 + B2. For each pair (i; j); i; j = 1; :::; n, consider $O ( n ^ { 2 } )$ llowing minimization problem with an equivalent reformulation of the $\mathrm { Q A P }$ are solved. Hence the procedure min aik bj(5.1) $O ( k n ^ { 5 } )$ aki b $k$ (k)j + akibp(k)j   aki bp(k)j
 
-wher e 2  and i = : mal reduction schemes for the QAP was proposed in Li, Pardalos, Ramakrishnan Dene a n - n matrix L = (lij) where lij is the optimal objective fun $A$ ion value of (5.1). $A _ { 1 } = \big ( a _ { i j } ^ { ( \bar { 1 } ) } \big )$ ng th $\overset { \mathbf { \bar { A _ { 2 } } } } { = } ( a _ { i j } ^ { ( 2 ) } )$ es a new lo $A = A _ { 1 } + A _ { 2 }$ 49, Theorem 4.1]. $B$ Theorem 5.2. Le $B _ { 1 } = ( b _ { i j } ^ { ( 1 ) } )$ x L $B _ { 2 } = ( b _ { i j } ^ { ( 2 ) } )$ s above. T $B = B _ { 1 } + B _ { 2 }$ on o the linear $( i , j ) , \ i , j = 1 , . . . , n .$ with cost matrix L is a lower bound or the c
+wher e 2  and i = : mal reduction schemes for the QAP was proposed in Li, Pardalos, Ramakrishnan Dene a n - n matrix L = (lij) where lij is the optimal objective fun $A$ ion value of (5.1). $A _ { 1 } = \big ( a _ { i j } ^ { ( \bar { 1 } ) } \big )$ ng th $\overset { \mathbf { \bar { A _ { 2 } } } } { = } ( a _ { i j } ^ { ( 2 ) } )$ es a new lo $A = A _ { 1 } + A _ { 2 }$ 49, Theorem 4.1]. $B$ Theorem 5.2. Le $B _ { 1 } = ( b _ { i j } ^ { ( 1 ) } )$ x L $B _ { 2 } = ( b _ { i j } ^ { ( 2 ) } )$ s above. T $B = B _ { 1 } + B _ { 2 }$ on o the linear $( i , j ) , \ i , j = 1 , . . . , n .$ with cost matrix L is a lower bound or the c
 
 $$
 \quad \mathrm { m i n } \qquad \sum _ { k = 1 } ^ { n } a _ { i k } ^ { ( 1 ) } b _ { j p ( k ) } ^ { ( 1 ) } + \sum _ { k = 1 } ^ { n } a _ { k i } ^ { ( 2 ) } b _ { p ( k ) j } + \sum _ { k = 1 } ^ { n } a _ { k i } b _ { p ( k ) j } ^ { ( 2 ) } - \sum _ { k = 1 } ^ { n } a _ { k i } ^ { ( 2 ) } b _ { p ( k ) j } ^ { ( 2 ) }
@@ -539,7 +539,7 @@ we pro $0 \leq \theta \leq 1$ o
 
 B2(). Both new lower bounds are dependent on the parameter . Note that, LB $A$ (0.0) $B$ GLB(A; B) and LB1(1.0) = GLB(At; Bt). For LB1(), we found in our computational experiments
 
-atrix  to partition matrices A and B takes only O(n2) time. By presort $\mathcal { R }$ g the rows of the 
+atrix  to partition matrices A and B takes only O(n2) time. By presort $\mathcal { R }$ g the rows of the 
 ow and distance m $\operatorname { L B 1 } ( \theta )$ A and B, one can compute lij; i; j = we propose is to use the reduction scheme $\mathcal { R } { - } 2$ . This lower bound is denoted $\operatorname { L B 2 } ( \theta )$ . Both new lower bounds are dependent on the parameter $\theta$ . Note that, $\operatorname { L B } 1 ( 0 . 0 ) = G L B ( A , B )$ and $\operatorname { L B } 1 ( 1 . 0 ) = G L B ( A ^ { t } , B ^ { t } )$
 
 For $\operatorname { L B 1 } ( \theta )$ , we found in our computational experiments that $\theta = 0 . 5$ is a good choice. For $\operatorname { L B 2 } ( \theta )$ , we used $\theta = 1 . 0$ . The latter was expected since the column variance of the matrix $\Delta$ is already zero when computing $\operatorname { L B 2 } ( \theta )$
@@ -548,7 +548,7 @@ The new lower bounds can be computed quite efficiently. Computing the matrix $\D
 
 $1 , . . . , n$ e t $O ( n ^ { 3 } )$  ! 1, this partitioning scheme app $O ( n ^ { 3 } )$ s the constant column reduction partitioning. Experimentally, we have observed that th
 
-duction partitioning scheme is more eective and is easier to implement. For an ecient implementation of
+duction partitioning scheme is more eective and is easier to implement. For an ecient implementation of
 
 $$
 \begin{array} { r c l } { { \delta _ { i j } } } & { { = } } & { { \theta \lambda \displaystyle \frac { 1 - \theta } { 1 - \theta \lambda } \gamma ( a _ { i } ) + \displaystyle \frac { \theta ( 1 - \lambda ) + \theta \lambda ^ { 2 } ( 1 - \theta ) - \theta ^ { 2 } \lambda ^ { 2 } ( 1 - \theta ) } { ( 1 - \theta \lambda ) ( 1 - \lambda + \theta \lambda ) } \gamma ( A ) } } \\ { { } } & { { } } & { { - \displaystyle \frac { \lambda \theta ( 1 - \theta ) } { 1 - \lambda + \theta \lambda } \gamma ( a _ { j } ^ { t } ) - \theta a _ { i j } . } } \end{array}
@@ -562,11 +562,11 @@ One of the oldest heuristics used is the CRAFT (Computerized Relative Allocation
 
 One of the oldest heuristics used is the CRAFT (Computerized Relative Allocation of Facilities Technique) [4, 231, 30]. This is a well-known heuristic for designing the layout of facilities that has been in use for over 25 years. Given a set of departments, locations, a matrix of fows between departments, and a matrix of costs to transport one item between two departments a unit distance, CRAFT iteratively improves an initial, user-supplied, layout by a series of department exchanges. At each step CRAFT considers either all possible 2- way, 3-way, or both 2-way and 3-way exchanges. It chooses the exchange that provides the most improvement in minimizing total cost, and then repeats the process until no improving exchange can be found.
 
-n stops when a predetermined time limit is reached or there is no improvement within a certain time limit. Another way is to decrease the requirements for optimality. For example, whenever an improvement is not obtained after a given time period, the upper bound is decreased by a certain specied percentage, resulting $\pmb { n }$ n deeper cuts in the enumeration tree. Although it is possible that the optimal solution may be cut o, the enumeration process is speeded up. Furthermore
+n stops when a predetermined time limit is reached or there is no improvement within a certain time limit. Another way is to decrease the requirements for optimality. For example, whenever an improvement is not obtained after a given time period, the upper bound is decreased by a certain specied percentage, resulting $\pmb { n }$ n deeper cuts in the enumeration tree. Although it is possible that the optimal solution may be cut o, the enumeration process is speeded up. Furthermore
 
-e by not more than some specied percentage. tions. One simple way is to put a time limit on the search procedure. Enumeration stops when a predetermined time limit is reached or there is no improvement within a certain time limit. Another way is to decrease the requirements for optimality. For example, whenever an improvement is not obtained after a given time period, the upper bound is decreased by a certain specified percentage, resulting in deeper cuts in the enumeration tree. Although it is possible that the optimal solution may be cut off, the enumeration process is speeded up. Furthermore, one can estimate that the optimal value differs from the suboptimal one by not more than some specified percentage.
+e by not more than some specied percentage. tions. One simple way is to put a time limit on the search procedure. Enumeration stops when a predetermined time limit is reached or there is no improvement within a certain time limit. Another way is to decrease the requirements for optimality. For example, whenever an improvement is not obtained after a given time period, the upper bound is decreased by a certain specified percentage, resulting in deeper cuts in the enumeration tree. Although it is possible that the optimal solution may be cut off, the enumeration process is speeded up. Furthermore, one can estimate that the optimal value differs from the suboptimal one by not more than some specified percentage.
 
-5.3.3. Improvement Methods. The majority of the heuristic solution methods Tabu search was introduced by Glover [90, 91] as a technique to overcome local optimality in combinatorial search. The underlying idea is to limit the search directions for each search step to obtain good quality solutions in an eective way. This approach has been applied successfully to a number of combinatorial optimization problems including the TSP. Adaptations of tabu search to the QAP have been studied by Skorin-Kapov [238] and Taillard [242]. The basic idea is as follows. To improve a given initial permutation tabu search seeks, among the set of permuta
+5.3.3. Improvement Methods. The majority of the heuristic solution methods Tabu search was introduced by Glover [90, 91] as a technique to overcome local optimality in combinatorial search. The underlying idea is to limit the search directions for each search step to obtain good quality solutions in an eective way. This approach has been applied successfully to a number of combinatorial optimization problems including the TSP. Adaptations of tabu search to the QAP have been studied by Skorin-Kapov [238] and Taillard [242]. The basic idea is as follows. To improve a given initial permutation tabu search seeks, among the set of permuta
 
 e best heuristic evaluation. In the simplest case, such an evaluation dictates the choice of a permutation which give the best objective function value. Every choice of a neighboring permutation represents an exchange of a pair of facilities. way. This approach has been applied successfully to a number of combinatorial optimization problems including the TSP. Adaptations of tabu search to the QAP have been studied by Skorin-Kapov [238] and Taillard [242]. The basic idea is as follows.
 
@@ -574,7 +574,7 @@ To improve a given initial permutation tabu search seeks, among the set of permu
 
 has proven useful in solving some traditional optimization problems, such as computer design, partitioning, component placement, wiring, and the traveling salesman problem. The analogy has resulted in a methodology, termed simulated annealing, which is used to overcome local optimality (see Kirkpatrick, Gelatti, and Vecchi [135]). The term \annealing" refers to the process
 
-annealing schedule. The process is continued until the vicinity of the solidi- cation temperature is reached, where the system is allowed to reach the \ground state" (the lowest energy state of the system). Simulated annealing is a Monte Carlo approach to simulate the behavior of this system to achieve thermal equilibrium at a given temperature in a given annealing schedule. This analogy has been applied in solving combinatorial optimization problems. According to the above authors:
+annealing schedule. The process is continued until the vicinity of the solidi- cation temperature is reached, where the system is allowed to reach the \ground state" (the lowest energy state of the system). Simulated annealing is a Monte Carlo approach to simulate the behavior of this system to achieve thermal equilibrium at a given temperature in a given annealing schedule. This analogy has been applied in solving combinatorial optimization problems. According to the above authors:
 
 Iterative improvement, commonly applied to such problems, is much like the microscopic rearrangement process modeled by statistical mechanics, with the cost function playing the role of energy. However, accepting only rearrangements that lower the cost function of the system is like extremely rapid quenching high temperatures to T = 0. So, it should not be surprising that resulting solutions are usually metastable. The Metropolis procedure from statistical mechanics provides a generalization of iterative improvement in which controlled uphill steps can also be incorporated in the search for a better solution. Simulated A
 
@@ -588,11 +588,11 @@ exchanges have been considered before going to the next stage. If all the temper
 
 e procedure. Essential to the success of the adaptation of simulated annealing to the QAP is the annealing schedule as discussed in their work [41, 253]. In the paper [183], computational results with four heuristics, the CRAFT, simulating annealing, tabu search, and a local search based on graph partitioning permutation is counter to the normal steepest descent strategy. However, it is argued in the analogy that by taking such controlled ascent steps, the optimization 5.3.5. Genetic Algorithms. Genetic algorithms
 
-other type of stochastic search technique. While simulated annealing is based on thermodynamic process, genetic algorithms are based on the mechanics of natural selection and natural adaptation. A genetic algorithm maintains a population consisting of a subset of individuals (solutions). Through means of biased selection and genetic operations, the algorithm replaces a population with a new population of individuals with better tness values on the average. Genetic al
+other type of stochastic search technique. While simulated annealing is based on thermodynamic process, genetic algorithms are based on the mechanics of natural selection and natural adaptation. A genetic algorithm maintains a population consisting of a subset of individuals (solutions). Through means of biased selection and genetic operations, the algorithm replaces a population with a new population of individuals with better tness values on the average. Genetic al
 
 uence at that time. With the advent of parallel computers, there has been increasing interest in genetic algorithms since they are inherently parallel. A number of researchers have tried to apply genetic algorithms to solve combinatorial optimization problems, such as the the graph partitioning problem and the traveling salesman problem [161]. selection and genetic operations, the algorithm replaces a population with a new 5.4. Greedy Randomized Adaptive Search Procedures
 
-RASP is an iterative randomized sampling technique in which each iteration provides an approximate solution to the problem at hand. The incumbent solution over all GRASP iterations is kept as the nal result. There are two phases within each GRASP iteration: the rst constructs an initial solution via an adaptive randomized greedy function; the second applies a local search technique to the constructed solution in hope of nding an improvement. A comprehensive survey of GRASP can be found in [73
+RASP is an iterative randomized sampling technique in which each iteration provides an approximate solution to the problem at hand. The incumbent solution over all GRASP iterations is kept as the nal result. There are two phases within each GRASP iteration: the rst constructs an initial solution via an adaptive randomized greedy function; the second applies a local search technique to the constructed solution in hope of nding an improvement. A comprehensive survey of GRASP can be found in [73
 
 odels the positioning of intermodal highway trailers on railcars. The GRASP is GRASP is an iterative randomized sampling technique in which each iteration provides an approximate solution to the problem at hand. The incumbent solution over all GRASP iterations is kept as the final result. There are two phases within each GRASP iteration: the first constructs an initial solution via an adaptive randomized greedy function; the second applies a local search technique to the constructed solution in hope of finding an improvement. A comprehensive survey of GRASP can be found in [73].
 
@@ -600,7 +600,7 @@ In [71] GRASP has been applied to a quadratic assignment problem that models the
 
 # 6. Test Problem Generation
 
-iteria including the accuracy of the solution, the speed of t $\mathrm { Q A P s }$ orithm, and the eectiveness of the algorithm with respect to dierent problem classes. Ho $N =$ $\{ 1 , 2 , \ldots , n \}$ cult pro $( n \times n )$ existing th $\boldsymbol { F } = \left( f _ { i j } \right)$ ot it $D = \left( d _ { k l } \right)$ e measurement for the $p$ criteria. $\mathrm { N }$ nce, empirical co
+iteria including the accuracy of the solution, the speed of t $\mathrm { Q A P s }$ orithm, and the eectiveness of the algorithm with respect to dierent problem classes. Ho $N =$ $\{ 1 , 2 , \ldots , n \}$ cult pro $( n \times n )$ existing th $\boldsymbol { F } = \left( f _ { i j } \right)$ ot it $D = \left( d _ { k l } \right)$ e measurement for the $p$ criteria. $\mathrm { N }$ nce, empirical co
 
 $$
 Q _ { F D } ( p ) = \sum _ { i } \sum _ { j } f _ { i j } d _ { p ( i ) p ( j ) } .
@@ -692,7 +692,7 @@ $f _ { A , B } ^ { \prime }$ The transpose of the matrix A $Q A P ( A , B )$
 $f _ { A , B } ^ { * }$ e The trace of the matrix A $Q A P ( A , B )$   
 $G L B ( A , B )$ The vector formed from the diagonal elements of A $Q A P ( A , B )$ $E V B ( A , B )$ The diagonal matrix formed fr $Q A P ( A , B )$   
 $\langle x , y \rangle$ The set of permutation matr $\pmb { x }$ es $_ y$   
-$\left. x , y \right. _ { + }$ The set of positive semidenite symmetric matric $\pmb { x }$ and $_ y$   
+$\left. x , y \right. _ { + }$ The set of positive semidenite symmetric matric $\pmb { x }$ and $_ y$   
 $\left. x , y \right. _ { - }$ The set of doubly stochastic matrices $\pmb { x }$ and $_ y$   
 $x ^ { + }$ The set of orthogonal matrices $\pmb { x }$ ascendingly   
 $\boldsymbol { \mathscr { x } } ^ { - }$ The set of nonnegative (elementwise) matrices $\pmb { x }$ descendingly $A ^ { t }$ The set of matrices with row $A$   
@@ -704,7 +704,7 @@ $\mathcal { P }$ r natorial optimization and neural computing, John Wiley and
 $\mathcal { D }$ nd H.D. Sherali, A tight linearization and   
 $\mathcal { O }$ u amming problems, Management Scien   
 $\mathcal { N }$ 3 (1991), no. 2, 175{219.   
-$\mathcal { E }$ nd E.S. Bua, Heuristic algorithm and simulation appro   
+$\mathcal { E }$ nd E.S. Bua, Heuristic algorithm and simulation appro   
 $\mathcal { S }$ ities, Management Science 9 (1963), 294{309.
 
 # alysis of some
@@ -723,7 +723,7 @@ IIE Transactions 23 (1991), 83{92. M.S. Bazaraa and A.N. Elshafei, An ex
 signment problem, Naval Research Logistics Quarterly 30 (1983), 287{304. M.S. Bazaraa and H.D. Sherali, Ne   
 problem, Operations Research Verfahren 32 (1979), 29{46. , Bender's partitioning scheme applied to a new formulation of the quadratic assignment proble   
 20. , On the use of exact and heuristic cutting plane methods for the quadratic assignment problem, Journal of Operati   
-21. G. Birko, Tres observaciones sobre el algebra lineal, Univ. Nac. Tucuman Rev. Ser. A (1946), 147{151.   
+21. G. Birko, Tres observaciones sobre el algebra lineal, Univ. Nac. Tucuman Rev. Ser. A (1946), 147{151.   
 22. J. B. Blanks, Near optimal quadratic-based placement for a class of ic layout problems, IEEE Circuits and Devices (1985), 31{373.   
 23. S.H. Bokhari, On the mapping problem, IEEE Transactions on Computers C-30 (1981), no. 3, 207{214.   
 24. , Assignment problems in parallel and distributed computing, Kluwer Academic Publishers, Boston, 1987.   
@@ -732,8 +732,8 @@ problem, Operations Research Verfahren 32 (1979), 29{46. , Bender's partitioning
 27. E. Donald Brown, L. Christopher Huntley, and R. Andrew Spillance, A parallel genetic heuristic for the   
 4 06-4 15, 1989. R.A. Brualdi and H.J. Ryser, Combinatoria   
 New York , 19 91. P.A. Bruijs, On   
-24. , European Journal of Operational Research 17 (1984), 21{30. E.S. Bua, G.C. Armour,   
-Business Review 42 (1962), 136{158. R.E. Burkard, Die storungsmethode zur losung q   
+24. , European Journal of Operational Research 17 (1984), 21{30. E.S. Bua, G.C. Armour,   
+Business Review 42 (1962), 136{158. R.E. Burkard, Die storungsmethode zur losung q   
 ations Research Verfahren 16 (1973), 84{108. , Some recent advan   
 ming, Elsevier Publishers B.V. North-Holland, 1984, pp. 53{68. R.E. Burkard, Locations with spatial interactions: the quadratic assignment problem, Discrete Locat   
 34. R.E. Burkard and T. Bonniger, A heuristic for quadratic boolean programs with applications to quadrati   
@@ -743,21 +743,21 @@ ming, Elsevier Publishers B.V. North-Holland, 1984, pp. 53{68. R.E. Burkard, Loc
 32. ,Some recent advances in quadratic assignment problems, Mathematical Programming, Elsevier Publishers B.V. North-Holland, 1984, pp. 53-68.   
 33. R.E. Burkard, Locations with spatial interactions: the quadratic assignment problem, Discrete Location Theory (P.B. Mirchandani and R.L. Francis, eds.), John Wiley, 1991.   
 34. R.E. Burkard and T. Bonniger, A heuristic for quadratic boolean programs with applications to quadratic assignment problems, European Journal of Operational Research 13 (1983), 374386.   
-40. R.E. Burkard and J. Oermann, Entwurf von schreibmaschinentastaturen mittels quadratischer zuordnungsprobleme, Z. Operations Res. 21 (1977), B121{B1   
+40. R.E. Burkard and J. Oermann, Entwurf von schreibmaschinentastaturen mittels quadratischer zuordnungsprobleme, Z. Operations Res. 21 (1977), B121{B1   
 41. R.E. Burkard and F. Rendl, A thermodynamically motivated simulation procedure for combinatorial optimization problems, European Journal of Operations Research 17 (1984), 169{174.   
-42. R.E. Burkard and R. Rudolf, Computational investigations on 3-dimensional axial assignment problems, Tech. report, Technische Universitat G   
+42. R.E. Burkard and R. Rudolf, Computational investigations on 3-dimensional axial assignment problems, Tech. report, Technische Universitat G   
 in: Belgian Journal of Operations Research. R.E. Burkard, R. Rudolf, and G. Woeg   
-lems with decomposable cost-coecients, Tech. Report Report 238, Technische Universitat Graz, Austria, 1992. R.E. Burkar   
+lems with decomposable cost-coecients, Tech. Report Report 238, Technische Universitat Graz, Austria, 1992. R.E. Burkar   
 salesman problems, Discrete Applied Mathematics 32 (1991), 61{76. R.E. Burkard and K.-H. Stratmann, Numerical investigations on quadratic a   
 problems, Naval Research Logistics Quaterly 25 (1978), 129{148. P. Camion, Characterization of totally unimodular matrices, Proc. Amer. Math. Soc. 16 (1965), 1068{73.   
 47. P. Carraresi and F. Malucelli, A new lower bound for the quadratic assignment problem, Operations Research 40 (1992), no. Supplement 1, S22{S27. P. Carraresi and F. Malucelli, A reformulat   
 assignment problem, Tech. Report TR-34/92, Universita di Pisa, 1992. J. Chakrapani and J. Skorin-Kapov, A connectionist approaches to the quadratic assignment problem, Comp   
 50. , A constructive method to improve lower bounds for the quadratic assignment problem, Working paper, State University of New York at Stony Bro   
 51. , Massively parallel tabu search for the quadratic assignment problem, Annals of Operations Research forthcoming (1992).   
-52. N. Christodes and E. Benavent, An exact algorithm for the quadrtic assignment problem, Operations Rese   
-53. N. Christodes and M. Gerrard, Special cases of the quadratic assignment problem, Management Science Research Report 391, Carnegie Mellon Univ   
+52. N. Christodes and E. Benavent, An exact algorithm for the quadrtic assignment problem, Operations Rese   
+53. N. Christodes and M. Gerrard, Special cases of the quadratic assignment problem, Management Science Research Report 391, Carnegie Mellon Univ   
 54. , A graph theoretic analysis of bounds for the quadratic assignment problem, Studies on graphs and discrete programming P. Hansen, ed. , North-Holland   
-55. N. Christodes, A. Mingozzi, and P. Toth, Contributions to the quadratic assignment problem, European Journal of Operations Research 4 (1980), 243{247.   
+55. N. Christodes, A. Mingozzi, and P. Toth, Contributions to the quadratic assignment problem, European Journal of Operations Research 4 (1980), 243{247.   
 56. ger C.N. Fiechter and D. de Werra, Basic ideas of tabu search with an application to traveling salesman and quadratic assignment, Ricerca Operativa 62 (1992),   
 57. nnolly, An improved annealing scheme fro the qap, Journal of Operational Research 46 (1990), 93{100.   
 58. K. Conrad, Das quadratische zuweisungsproblem und zwei seiner spezialfalle, MohrSiebeck, Tubingen (1971).   
@@ -785,8 +785,8 @@ assignment problems, Tech. report, Erasmus University, Rotterdam, 1982. C. Fride
 in large graphs with tabu search, Computing 42 (1989), 35{44. A.M. Frieze, Complexity of a   
 Operations Research 13 (1983), 161{164. A.M. Frieze and J. Yadegar, an algorithm for solving 3-dimensional assign   
 with application to scheduling a teaching practice, Operations Research 32 (1981), 989{ optimization algorithms, Springer-Verlag, Lecture Notes in Computer Science, No. 455, 1990.   
-77. R.L. Francis and J.A. White, Facility layout and location, Prentice-Hall, Englewood Cliffs, K. Frohlich,   
-sitat Koln, 1979, Masters Thesis. W. Gander, G. Golub, and U. von Matt, A constrained eigenvalue problem   
+77. R.L. Francis and J.A. White, Facility layout and location, Prentice-Hall, Englewood Cliffs, K. Frohlich,   
+sitat Koln, 1979, Masters Thesis. W. Gander, G. Golub, and U. von Matt, A constrained eigenvalue problem   
 bra and its Applications 114/115 (1989), 815{839. M.R. Garey and D.S. Johnson, Computers and intractability -   
 NP-completeness, W.H. Freeman and Company, 1979. J.W. Gavett and N.V. Plyter, The optima   
 81. A.M. Frieze and J. Yadegar, an algorithm for solving 3-dimensional assignment problem with application to scheduling a teaching practice, Operations Research 32 (1981), 989- 995.   
@@ -801,14 +801,14 @@ WGan G.Golub,anU.voMaAcora igen roble Linbra and its Applications 114/115 (1989)
 98. V.P. Gulati, S.K. Gupta, and A.K. Mittal, Unconstrained bivalent programming problem, European Journal of Operations Research 15 (1984), 121{1   
 99. G. Gwan and L. Qi, On facet of the three index assignment polytope, Australasian Journal of Combinatorics 6 (1992), 67{87.   
 100. S.W. Hadley, Continuous optimization approaches for the quadratic assignment problem, Ph.D. thesis, University of Waterloo, 1989.   
-101. S.W. Hadley, F. Rendl, and H. Wolkowicz, Bounds for the quadratic assignment problem using continuous optimization techniques, Integer Programming and Com Optimization, University of Waterloo Press, 1990, pp. 237{248. , A new ematics of Operations Research 17 (1992), no. 3, 727{739. S.W. Hadley, F. Rendl, and H. Wolkowicz, and the Homan-Wielandt inequality, Linear Algebra and its Applications 58 (1992),   
+101. S.W. Hadley, F. Rendl, and H. Wolkowicz, Bounds for the quadratic assignment problem using continuous optimization techniques, Integer Programming and Com Optimization, University of Waterloo Press, 1990, pp. 237{248. , A new ematics of Operations Research 17 (1992), no. 3, 727{739. S.W. Hadley, F. Rendl, and H. Wolkowicz, and the Homan-Wielandt inequality, Linear Algebra and its Applications 58 (1992),   
 1 09{1 24.   
-104. M. Hall Jr., Combinatorial theory, Blaisdell Company, Waltham, MA, 1967. M. Hanan and J.M. Kurtzberg, problem, SIAM Review 14 (1972), 324{342. P. Hansen and L. Kaufman, A primal-dual a problem, Cahiers Centre Etudess Rec h. Oper 15 (1973), 327{336. J.P. Hart and A.W. Shogan, Semi-greedy heuristics: An empirical study, Operations Research Letters 6 (1987), 107{114.   
-108. eey, Assigning runners to a relay team, Optimal Strategies in Sports (Amsterdam) (S.P. Ladany and R.E. Machol, eds.), North-Hollan   
-103. S.W. Hadley, F. Rendl, and H. Wolkowicz, Nonsymmetric quadratic assignment problems C.H. Heider, A computationally simplied pair exchange algorithm for the quadratic assignment   
+104. M. Hall Jr., Combinatorial theory, Blaisdell Company, Waltham, MA, 1967. M. Hanan and J.M. Kurtzberg, problem, SIAM Review 14 (1972), 324{342. P. Hansen and L. Kaufman, A primal-dual a problem, Cahiers Centre Etudess Rec h. Oper 15 (1973), 327{336. J.P. Hart and A.W. Shogan, Semi-greedy heuristics: An empirical study, Operations Research Letters 6 (1987), 107{114.   
+108. eey, Assigning runners to a relay team, Optimal Strategies in Sports (Amsterdam) (S.P. Ladany and R.E. Machol, eds.), North-Hollan   
+103. S.W. Hadley, F. Rendl, and H. Wolkowicz, Nonsymmetric quadratic assignment problems C.H. Heider, A computationally simplied pair exchange algorithm for the quadratic assignment   
 110. C. Helmberg, B. Mohar, S. Poljak, and F. Rendl, A spectral approach t and separator problems in graphs, Tech. Report CDLDO 32, Institute of Mathematics, University of Technology Graz, 1993.   
 111. P.S. Hiller and M.M. Connors, Quadratic assignment algorithms and the location of indivisible facilities, Management Science 13 (1966), 42{57.   
-112. F.S. Hillier, Ecient heuristic procedures for integer linear programming with an interior, Operations Research 17 (1969), 600{   
+112. F.S. Hillier, Ecient heuristic procedures for integer linear programming with an interior, Operations Research 17 (1969), 600{   
 108. D.R. Heffley, Assigning runners to a relay team, Optimal Strategies in Sports (Amsterdam) (S.P. Ladany and R.E. Machol, eds.), North-Holland, Amsterdam, 1977, pp. 169-   
 171.   
 109. C.H. Heider, A computationally simplified pair exchange algorithm for the quadratic assignment problem, Paper 101, Center for Naval Analysis, Arlington (Va), 1972.   
@@ -830,7 +830,7 @@ problem, Research Report CORR 93-15, DIMACS, Rutgers University, New Brunswick, 
 Problem, DIMACS, 1993. N. Karmarkar, An interior-point approach to NP-complete problems { extended abstract, Contemporary Mathematics 114 (1990),   
 131. R. Karp, Reducibility among combinatorial problems, Proc. Complexity of Computer Computations (R.E. Miller and J.W. Thatcher, eds.),   
 132. L. Kaufman and F. Broeckx, An algorithm for the quadratic assignment problem using benders' decomposition, European Journal of Operational Research 2 (19   
-133. B. Kernighan and S. Lin, An ecient heuristic procedure for partitioning graphs, Bell Systems Journal 49 (1972), 291{307.   
+133. B. Kernighan and S. Lin, An ecient heuristic procedure for partitioning graphs, Bell Systems Journal 49 (1972), 291{307.   
 134. G.A.P. Kindervater and J.K. Lenstra, An introduction to parallelism in combinatorial optimization, Discrete Applied Mathematics 14 (1986), 135{156. S. Kirpatrick, C.D. Gelatti, and M.P. Vecchi, Optimization by simulated annealing, Science 220 (1983), 671{680.   
 136. G.A. Kochenberger, B.A. McCarl, and F.P. Wyman, A heuristic for general integer programming, Decision Sci. 5 (1974), 36{44.   
 137. T.C. Koopmans and M.J. Beckmann, Assignment problems and the location of economic activities, Econometrica 25 (1957), 53{76.   
@@ -849,11 +849,11 @@ algorithm for the quadratic assignment problem, Tech. report, AT&T Bell Laborato
 Laboratories, Murray Hill, NJ 07974-2070, April 1992, To appear in Annals of Operations man problem: A guided tour of combinatorial optimization, John Wiley & Sons, 1985.   
 150. Yong Li and Panos M. Pardalos, Generating quadratic assignment test problems with known optimal p   
 no. 2, 163{184. , Parallel algorithms for the quadratic assignment p   
-Optimization and Parallel Computing, 177{189, Elsevier, Amsterdam, 1992, pp. 177{189. S. Lin and B. Kernighan, An eective h   
-problem, Operations Research 21 (1973), 498{516. L. Lovasz, On the ratio of optimal integral and fractional covers, Discrete Mathematics 13 (1975), 391{398.   
+Optimization and Parallel Computing, 177{189, Elsevier, Amsterdam, 1992, pp. 177{189. S. Lin and B. Kernighan, An eective h   
+problem, Operations Research 21 (1973), 498{516. L. Lovasz, On the ratio of optimal integral and fractional covers, Discrete Mathematics 13 (1975), 391{398.   
 154. ve and J. Y. Wong, On solving a one-dimensional space allocation problem with integer programming, INFOR 14 (1976), 139{143. , S   
 programming, Naval Research Logistics Quarterly 23 (1976), 623{627. Robert F. Love, James G. Morris, and George O. Wesolowsky, Facilities location: Models and methods, N   
-157. otschel and L. Lovasz and A. Schrijver, Geometric algorithms and combinatorial optimization, Springer-Verlag, 1988.   
+157. otschel and L. Lovasz and A. Schrijver, Geometric algorithms and combinatorial optimization, Springer-Verlag, 1988.   
 158. W.L. Maxwell, The scheduling of economic lot sizes, Naval Research Logistics Quaterly 11 (1964), 89{124.   
 159. E.J. McCormik, Human factors engineering, McGraw-Hill, New York, 1970. P.B. Mirchandani a   
 ities: the quadratic assignment problem a review, Working Paper Ps-79-1, Rensselaer Polytechnic Institute, Troy, New York, May 1979.   
@@ -872,7 +872,7 @@ for the assignment of facilities to locations, Journal of Operations Research 16
 172. M.L. Overton, Large-scale optimization of eigenvalues, SIAM J. Optimization 2 (1992), set, Journal of Optimization and Applications 70 (1991), no. 2, 377-384.   
 173. M. Padberg, On the facial structure of the set packing polyhedra, Mathematical Programming 5 (1973), 199{216.   
 174. G. Palubetskis, Quadratic 0-1 optimization, Informatica 1 (1990), 89{106. G.S. Palubetskis, Generatio   
-solutions (in Russian), Zh. Vychisl. Mat. Mat. Fiz. 28 (1988), no. 11, 1740{1743. C.H Papadimitriou and K. Steiglitz, Combinatorial optimization: algorithms and complexity, Prentice-Hall, Inc., Englewood Clis, NJ 07632, USA, 1982.   
+solutions (in Russian), Zh. Vychisl. Mat. Mat. Fiz. 28 (1988), no. 11, 1740{1743. C.H Papadimitriou and K. Steiglitz, Combinatorial optimization: algorithms and complexity, Prentice-Hall, Inc., Englewood Clis, NJ 07632, USA, 1982.   
 177. C.H. Papadimitriou and D. Wolfe, The complexity of facets resolved, Proceedings of the Foundations Of Computer Science, 1985, pp. 74{78. P.M. Pard   
 test problems, ACM Transactions on Mathematical Software 13 (1987), no. 2, 133{137. 88-120.   
 actions on Mathematical Software 17 (1991), no. 1, 74{87. P.M. Pardalos and J. Cro   
@@ -911,7 +911,7 @@ imization to the quadratic assignment problem, Mathematical Programming 53 (1992
 211. W.T. Rhee, A note on asymptotic properties of teh quadratic assigment problem, Operations Research Letters (1989), 197{200.   
 212. , Stochastic analysis of the quadratic assignment problem, Manuscript, Ohio State University, Columbus, Ohio 43210, 1990.   
 213. R.H. Roth, An approach to solving linear discrete optimization problems, J. Assoc. Comut. Mach. 17 1970 300{313.   
-214. C. Roucairol, Aection quadratique, Ph.D. thesis, Universite Pierre et Marie Curie, Paris Annals of Operations Research (1990), no. CORR 90-20, To appear in the special issue , A reduction method for quadrat   
+214. C. Roucairol, Aection quadratique, Ph.D. thesis, Universite Pierre et Marie Curie, Paris Annals of Operations Research (1990), no. CORR 90-20, To appear in the special issue , A reduction method for quadrat   
 Verfahren 32 (1979), 183{187. imization to the quadratic assignment problem, Mathematical Programming 53 (1992), 6378.   
 2. W.T.Rhee, A note on asymptotic properties of teh quadratic assigment problem, Operations Research Letters (1989), 197-200.   
 212. •, Stochastic analysis of the quadratic assignment problem, Manuscript, Ohio State University, Columbus, Ohio 43210, 1990.   
@@ -919,7 +919,7 @@ Verfahren 32 (1979), 183{187. imization to the quadratic assignment problem, Mat
 214. C. Roucairol, Affection quadratique, Ph.D. thesis, Universite Pierre et Marie Curie, Paris VI, 1976.   
 215. -, A reduction method for quadratic assignment problems, Operations Research Verfahren 32 (1979), 183187.   
 222. age and M.G. Wloka, Parallelism in graph-partitioning, Journal of Parallel and Distributed Com   
-223. haer and M. Yannakakis, Simple local search problems that are hard to solve, Tech. report, AT&T Bell Laboratories, 1989.   
+223. haer and M. Yannakakis, Simple local search problems that are hard to solve, Tech. report, AT&T Bell Laboratories, 1989.   
 224. age, A more portable fortran random number generator, ACM Transactions on Mathematical Software 5 (1979), 132{138.   
 225. Alexander Schrijver, Theory of linear and integer programming, John Wiley and Sons, versität Graz, Austria, 1991, Masters Thesis.   
 226. M. Scriabin and R.C. Vergin, Comparison of computer algorithms and visual based methods f   
@@ -939,7 +939,7 @@ computational study for the tsp, Proceedings of the 1983 Winter Simulation Confe
 238. , Tabu search applied to the quadratic assignment problem, ORSA Journal on Computing 2 (1990), no. 1, 33{45. T.H.C. Smith, A comp   
 and a pair exchange algorithm for the quadratic assignment problem, Man. Sci. Res. Rep. 383, Carnegie Mellon University, Pittsburgh, Pa.,   
 240. berg, The backboard wiring problem: A placement algorithm, SIAM Review 3 (1961), 37{50   
-241. R.J. Stern and H. Wolkowicz, Indenite trust region subproblems and nonsymmetric eigenvalue perturbations, Tech. Report CORR 92-38, University of Waterloo, Waterloo, Cana   
+241. R.J. Stern and H. Wolkowicz, Indenite trust region subproblems and nonsymmetric eigenvalue perturbations, Tech. Report CORR 92-38, University of Waterloo, Waterloo, Cana   
 27. J. Skorin-Kapov, Extensions of tabu search adaptation to the quadraticassignment problem, Computers and Operations Research forthcoming.   
 238. Tabu search applied to the quadratic assignment problem, ORSA Journal on Computing 2 (1990), no. 1, 3345.   
 239. T.H.C. Smith, A computational comparision of an improved pair assignment algorithm and a pair exchange algorithm for the quadratic assignment problem, Man. Sci. Res. Rep. 383, Carnegie Mellon University, Pittsburgh, Pa., November 1975.   
