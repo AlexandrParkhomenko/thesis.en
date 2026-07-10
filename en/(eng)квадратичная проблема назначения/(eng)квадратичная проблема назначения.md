@@ -1,6 +1,6 @@
 # quadratic assignment problem. We focus our attention on recent developand Recent Developments
 
-1. Introduction dratic assignment problem (QAP) can be stated as follows: diverse areas such as operations research, parallel and distributed computing, and combinatorial data analysis. In this paper we survey some of p2N j p( )p(j) p( ) quadratic assignment problem. We focus our attention on recent developis t
+1. Introduction dratic assignment problem (QAP) can be stated as follows: diverse areas such as operations research, parallel and distributed computing, and combinatorial data analysis. In this paper we survey some of p2N j p( )p(j) p( ) quadratic assignment problem. We focus our attention on recent developis t
 
 # 1. Introduction
 
@@ -345,13 +345,15 @@ From the computational point of view the QAP is one of the most difficult proble
 
 Many well known $N P$ -Complete problems, such as the traveling salesman problem (TSP), the graph partitioning problem (GP), the maximum clique problem (MCP), can be easily formulated as special cases of the QAP:
 
-adjacency matrix of the graph for the MCP, a ow matrix corresponds to the adjacency matrix of a clique of size k. The maximum clique can be found by solving a set of n QAPs, $\pmb { n }$ n   
+adjacency matrix of the graph for the MCP, a 
+ow matrix corresponds to the adjacency matrix of a clique of size k. The maximum clique can be found by solving a set of n QAPs, $\pmb { n }$ n   
 The graph partitioning problem (GP): The distance matrix corresponds to the adjacency matrix of the GP, the flow matrix corresponds to the adjacency matrix of two disjoint complete graphs of size $n / 2$ (assuming $\pmb { n }$ is even).   
 The maximum clique problem (MCP): To identify the existence of a clique of size $k$ , one constructs a distance matrix corresponding to the adjacency matrix of the graph for the MCP, a flow matrix corresponds to the adjacency matrix of a clique of size $k$ . The maximum clique can be found by solving a set of $\pmb { n }$ QAPs, one for each $k , 1 \leq k \leq n$
 
 ighted adjacency matrix of a tree, while the other one represents the distance matrix of a grid graph G = (V; E), where the distances between nodes i and j is dened as follows $A$ and $B$ are weighted adjacency matrices of a tree, the problem can be solved in a dynamic programming fashion, in polynomial time. But if only 1 of the 2 matrices is a weighted adjacency matrix of a tree, the problem remains to be $N P$ -complete since the TSP Other polynomial-time solv
 
-atrix is the weighted adjacency matrix $O ( n \log n )$ e star (see Christodes and Gerrard [53]). When both distance and ow matrices are weighted adjacency matrices of series-parallel graphs containing no bipartite graph K2;2, then again the corresponding QA $G = ( V , E )$ in polynomial time [208]. $_ i$ and $j$ is defined as follows
+atrix is the weighted adjacency matrix $O ( n \log n )$ e star (see Christodes and Gerrard [53]). When both distance and 
+ow matrices are weighted adjacency matrices of series-parallel graphs containing no bipartite graph K2;2, then again the corresponding QA $G = ( V , E )$ in polynomial time [208]. $_ i$ and $j$ is defined as follows
 
 $$
 b _ { i j } = \left\{ \begin{array} { l l } { 1 , \mathrm { ~ i f ~ } ( i , j ) \in E , } \\ { \mathrm { l e n g t h ~ o f ~ t h e ~ s l ~ } } \end{array} \right.
@@ -460,7 +462,8 @@ $$
 
 where the set $\Pi$ denotes the set of all permutations of $N$ and $x , y \in R ^ { n }$ . In fact, $\left. x , y \right. _ { - }$ can be computed as the inner product of $x ^ { + }$ and $y ^ { - }$ , where $x ^ { + }$ is linear assignment problem (LAP) with co $\pmb { x }$ matrix L, i.e. $y ^ { - }$ is obtained by ordering the components of $_ y$ descendingly. $\left. x , y \right. _ { + }$ can be computed similarly.
 
-Let $a _ { i } , b _ { i }$ $i = 1 , . . . , n$ GLB(A; B) = min X lip(i): $A , B$ , respectively. Let $\hat { a } _ { i }$ be the vector consisting of the $\left( n - 1 \right)$ i=1 $a _ { i }$ , not including $a _ { i i }$ 5 $\hat { b } _ { i }$ .2. Eigenvalue Based Bounds. $\left( n - 1 \right)$ based on eigenv $b _ { i }$ ues of the ow $b _ { i i }$ d distance matric $L = \left( l _ { i j } \right)$ B have be
+Let $a _ { i } , b _ { i }$ $i = 1 , . . . , n$ GLB(A; B) = min X lip(i): $A , B$ , respectively. Let $\hat { a } _ { i }$ be the vector consisting of the $\left( n - 1 \right)$ i=1 $a _ { i }$ , not including $a _ { i i }$ 5 $\hat { b } _ { i }$ .2. Eigenvalue Based Bounds. $\left( n - 1 \right)$ based on eigenv $b _ { i }$ ues of the 
+ow $b _ { i i }$ d distance matric $L = \left( l _ { i j } \right)$ B have be
 
 $$
 l _ { i j } = a _ { i i } b _ { j j } + \langle \hat { a } _ { i } , \hat { b } _ { j } \rangle _ { - } , \ i , j = 1 , . . . , n .
@@ -536,7 +539,8 @@ we pro $0 \leq \theta \leq 1$ o
 
 B2(). Both new lower bounds are dependent on the parameter . Note that, LB $A$ (0.0) $B$ GLB(A; B) and LB1(1.0) = GLB(At; Bt). For LB1(), we found in our computational experiments
 
-atrix  to partition matrices A and B takes only O(n2) time. By presort $\mathcal { R }$ g the rows of the ow and distance m $\operatorname { L B 1 } ( \theta )$ A and B, one can compute lij; i; j = we propose is to use the reduction scheme $\mathcal { R } { - } 2$ . This lower bound is denoted $\operatorname { L B 2 } ( \theta )$ . Both new lower bounds are dependent on the parameter $\theta$ . Note that, $\operatorname { L B } 1 ( 0 . 0 ) = G L B ( A , B )$ and $\operatorname { L B } 1 ( 1 . 0 ) = G L B ( A ^ { t } , B ^ { t } )$
+atrix  to partition matrices A and B takes only O(n2) time. By presort $\mathcal { R }$ g the rows of the 
+ow and distance m $\operatorname { L B 1 } ( \theta )$ A and B, one can compute lij; i; j = we propose is to use the reduction scheme $\mathcal { R } { - } 2$ . This lower bound is denoted $\operatorname { L B 2 } ( \theta )$ . Both new lower bounds are dependent on the parameter $\theta$ . Note that, $\operatorname { L B } 1 ( 0 . 0 ) = G L B ( A , B )$ and $\operatorname { L B } 1 ( 1 . 0 ) = G L B ( A ^ { t } , B ^ { t } )$
 
 For $\operatorname { L B 1 } ( \theta )$ , we found in our computational experiments that $\theta = 0 . 5$ is a good choice. For $\operatorname { L B 2 } ( \theta )$ , we used $\theta = 1 . 0$ . The latter was expected since the column variance of the matrix $\Delta$ is already zero when computing $\operatorname { L B 2 } ( \theta )$
 
@@ -924,7 +928,8 @@ Verfahren 32 (1979), 183{187. imization to the quadratic assignment problem, Mat
 229. S.I. Sergeyev, A new lower bound for the quadratic assignment problem, Zh. Vychisl. Mat. Mat. Fiz. 27 (1987), no. 12, 1802{1811.   
 230. C.E. Shannon, The zero-error capacity of a noisy channel, I.R.E. Transactions 3 (1956). SHARE, Computerized relative allocation o   
 1 965, SDA3391 . H.D.   
-thesis, Georgia Institute of Technology, Atlanta, June 1979. H.D. Sherali and P. Rajgopal, A exible polynomial time const   
+thesis, Georgia Institute of Technology, Atlanta, June 1979. H.D. Sherali and P. Rajgopal, A 
+exible polynomial time const   
 heuristic for the quadratic assignment problem, Computers & Operations Research 13 (1986), n   
 234. B. Simeone, An asymptotically exact polynomial time algorithm for equipartition problems, Discrete Applied Math. 14 (19   
 235. , Combinatorial optimization, Lecture Notes in Mathematics, vol. 1403, SpringerVerlag, 1986.   
